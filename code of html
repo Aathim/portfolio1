@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Arathi M Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+         image src='https://www.w3schools.com/howto/img_avatar2.png'>
+        
+        <div class='herosectionDetails'>
+          <h1>Arathi M</h1>
+          <h3>student</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do...</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas blandit ex. Proin vehicula fermentum leo a vehicula. Maecenas sollicitudin sem a ornare fringilla. Etiam scelerisque enim sit amet pharetra aliquet. Suspendisse ac mauris in ligula faucibus ullamcorper sit amet tristique nisi. Integer ultrices nisl quis leo sodales, ut pretium nisl varius. Vivamus sit amet augue molestie, maximus nunc ac, sodales enim. Mauris non enim sollicitudin justo eleifend pulvinar placerat commodo lorem. Suspendisse sit amet accumsan lectus. Sed ut tortor purus. Suspendisse consectetur venenatis sem et fermentum. Nam non iaculis magna. Fusce aliquet eleifend massa, sed pharetra nulla gravida ac. Curabitur commodo ultrices mi, vel aliquam dui placerat quis. Aliquam nibh justo, pellentesque quis lorem quis, suscipit luctus felis. Nam lobortis consectetur massa, non dignissim est dapibus nec.</p>
+      </section>
+     
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='https://image.flaticon.com/icons/png/512/732/732212.png'>
+          <img title='CSS' src='https://image.flaticon.com/icons/png/512/136/136527.png'>
+          <img title='c' src='https://www.freeiconspng.com/uploads/letter-c-icon-png-2.png'>
+          <img title='c++' src='https://img.flaticon.com/icons/png/512/2085/2085176.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF'>
+          <img title='python' src='https://image.flaticon.com/icons/png/512/919/919852.png'>
+          <img title='java' src='https://icon-library.com/images/java-icon-png/java-icon-png-2.jpg'>
+          
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='https://picoctf.org/img/logos/picoctf-logo-og.png'/>
+            <div class='projectDescription'>
+              <h4> 3 CTF Challenges from picoctf</h4>
+              <p>it is a web apps hacking  project.here we take a challenge and solve it </p>
+            </div>
+          </div>
+      
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
